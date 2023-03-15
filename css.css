@@ -1,0 +1,53 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bgcolor {
+  background-color: #b7e760;
+}
+
+.filter {
+  filter: blur(3px);
+}
+
+.backg {
+  background-color: #64930d;
+  opacity: 0.2;
+}
+
+.green {
+  background-color: #80c500;
+}
+
+.clear-filter[filter-color="green"] {
+  background: linear-gradient(
+    0deg,
+    rgba(44, 44, 44, 0.2),
+    rgba(9, 198, 74, 0.6)
+  );
+}
+
+.img-fluid {
+  min-width: 50%;
+  max-width: 70%;
+}
+
+.section {
+  padding: 10px 0;
+}
+
+textarea.form-control {
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+}
+
+.botao {
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .sidebar-collapse .navbar-collapse::before {
+    background: linear-gradient(#32f992, #000 80%);
+  }
+}
